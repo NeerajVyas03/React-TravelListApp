@@ -204,3 +204,69 @@ input[type="checkbox"] {
     padding: 2rem 0; /* Reduce padding for smaller screens */
   }
 }
+
+/* Existing CSS */
+
+/* Add new CSS for responsiveness */
+@media screen and (max-width: 395px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    padding: 1rem 0;
+    word-spacing: 15px;
+    letter-spacing: -2px;
+  }
+
+  .add-form {
+    padding: 1.6rem 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h3 {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .add-form select {
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .add-form button,
+  .add-form input[type="text"] {
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .list {
+    padding: 1.6rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list ul {
+    width: 90%;
+  }
+
+  .list li {
+    width: 90%;
+  }
+
+  .list li button {
+    font-size: 1.4rem;
+  }
+
+  .stats {
+    padding: 1.6rem 0;
+  }
+}
